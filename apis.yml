@@ -1,4 +1,16 @@
 aid: solidstage
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/solidstage.png
 name: SolidStage
 description: SolidStage is a company surfaced as a portfolio company of a16z and added to the API Evangelist
   network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -20,3 +32,10 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: No API surface found. solidstage.com parked (parkingcrew.net); no a16z portfolio
+    listing; GitHub org SolidStage is an empty 2011 shell (0 repos). Nothing to search/derive.
